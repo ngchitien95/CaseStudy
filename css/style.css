@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+    font-weight: bold ;
+    color: red;
+    font-size: 80px;
+}
+p {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+h3 {
+    background-color: #e8e8;
+;
+    width: 400px;
+    font-size: 30px;
+}
+body {
+    background-image: url("/photo/nen1.jpg");
+}
+
+h3.cangiua {display: block; margin-left: auto; margin-right: auto;} 
+
+img.cangiua {display: block; margin-left: auto; margin-right: auto;} 
+
+table.center {
+    margin-left: auto  !important;
+    margin-right: auto  !important; 
+}
+
+
+#button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label {
+    color:#f2f2f2;
+    font-family:Arial, sans-serif;
+}
+
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+
+input[type="radio"]:checked + label span {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/check_radio_sheet.png) -57px top no-repeat;
+}
+
+.big-text {
+	color: #FF7E00 !important;
+	font-size: 2em !important;
+}
+
